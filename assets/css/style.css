@@ -28,17 +28,8 @@
     display: flex;
 }
 
-.align-items-center {
-    align-items: center;
-}
 
-.min-vh-100 {
-    min-height: 100vh;
-}
 
-.justify-content-center {
-    justify-content: center;
-}
 
 .align-content-center {
     align-content: center;
@@ -47,35 +38,18 @@
 .w-100 {
     width: 100%;
 }
-
 .bg-color {
     background-color: #0C0B0B;
 }
 
-.heading {
-    font-family: 'Poppins', sans-serif;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 61.44px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-bottom: 32px;
+.justify-content-center {
+    justify-content: center;
 }
 
 .justify-content-between {
     justify-content: space-between;
 }
 
-.card {
-
-    height: 154px;
-    border-radius: 10px;
-    border: 1px solid #444444;
-    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
-    padding: 16px 20px;
-    justify-content: space-between;
-    gap: 20px;
-}
 
 .line {
     font-family: 'Poppins', sans-serif;
@@ -89,7 +63,19 @@
 .mt-16 {
     margin-top: 16px;
 }
+.min-vh-100 {
+    min-height: 100vh;
+}
 
+.heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 61.44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
 .line1 {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -108,30 +94,22 @@
     text-align: left;
     color: #F06500;
 }
-.percent{
-font-family: 'Poppins' ,sans-serif;
-font-size: 28px;
-font-weight: 600;
-line-height: 42px;
-text-align: left;
-color: #FFFFFF;
-
-}
-.s-card {
-    width: 92px;
-    height: 67px;
-
-}
-
-.card1 {
+.card {
 
     height: 154px;
     border-radius: 10px;
     border: 1px solid #444444;
-    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
     padding: 16px 20px;
-
+    justify-content: space-between;
+    gap: 20px;
 }
+.s-card {
+    width: 92px;
+    height: 67px;
+    
+}
+
 
 .position-relative {
     position: relative;
@@ -139,6 +117,16 @@ color: #FFFFFF;
 
 .circleBox {
     position: relative;
+}
+.card1 {
+    
+    height: 154px;
+    border-radius: 10px;
+    border: 1px solid #444444;
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    padding: 16px 20px;
+    
+    
 }
 
 .circleBox::before {
@@ -152,10 +140,19 @@ color: #FFFFFF;
     padding-right: 2px;
     background: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
     -webkit-mask:
-        linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
+}
+.percent{
+font-family: 'Poppins' ,sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 42px;
+text-align: left;
+color: #FFFFFF;
+
 }
 
 .tablebox {
@@ -257,6 +254,16 @@ th {
     overflow: auto;
 }
 
+.sedd {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 17px 25px;
+}
 .data {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -272,16 +279,6 @@ th {
     background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
 }
 
-.sedd {
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32.4px;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 17px 25px;
-}
 
 .text {
     font-family: 'Poppins', sans-serif;
